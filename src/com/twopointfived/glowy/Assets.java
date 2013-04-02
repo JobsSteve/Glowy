@@ -1,3 +1,8 @@
+// Assets holds all the games globals, when the OpenGL surface is lost 
+// all can be reloaded with a call to reload() in the GlowyGame's Activity & Renderer
+// onSurfaceCreated()
+
+
 package com.twopointfived.glowy;
 
 import com.twopointfived.engine.Music;

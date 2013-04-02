@@ -1,3 +1,6 @@
+// GlowyGame is the App's main (only) Activity as well as spawning the Renderer thread and
+// attaching the main GLSurfaceView (all done within GLGame)
+
 package com.twopointfived.glowy;
 
 import javax.microedition.khronos.egl.EGLConfig;
@@ -34,6 +37,7 @@ public class GlowyGame extends GLGame {
             Assets.music.pause();
     }
     
+    // listen for the back button, to mimic standard Android behavior
     @Override
     public boolean onKeyDown(int keyCode, KeyEvent event) {
         if (keyCode == KeyEvent.KEYCODE_BACK) {

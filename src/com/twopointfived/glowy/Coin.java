@@ -1,3 +1,6 @@
+// Coins are collected by Glowy
+// they are non dynamic game objects that just sit in the world waiting to be collided with
+
 package com.twopointfived.glowy;
 
 import com.twopointfived.engine.GameObject;
